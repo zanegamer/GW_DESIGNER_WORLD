@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to GW DESIGNERS WORLD Website</title>
+    <style>
+        /* Resetting default browser styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        /* Styling the body */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            line-height: 1.6;
+        }
+        
+        /* Styling the header */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            margin-bottom: 10px;
+        }
+        
+        /* Styling the navigation bar */
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px 0;
+        }
+        
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 5px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+        
+        nav a::before {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 2px;
+            background-color: #fff;
+            transition: width 0.3s ease;
+        }
+        
+        nav a.active::before {
+            width: 100%;
+        }
+        
+        nav a:hover {
+            background-color: #666;
+        }
+        
+        /* Styling the main content */
+        .container {
+            max-width: 960px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+        
+        /* Styling the footer */
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>GW DESIGNERS WORLD</h1>
+    <p>Welcome to our website!</p>
+</header>
+
+<nav>
+    <a href="Home.html" class="home">Home</a>
+    <a href="About.html" class="about">About</a>
+    <a href="Videos.html" class="videos">Photos</a>
+    <a href="Contact.html" class="contact">Contact</a>
+</nav>
+
+<div class="container">
+    <h2>ARTS AND CUBE TECHNIQUES</h2>
+    <p> It was the first channel started by me on 2021 on covid pendemic holidays. I made this channel to share my creativity on social media. This channel consists of both Arts and cube videos. You can find this channe by typing "Arts of zane". </p>
+    <p>Through this channel I never teachs how to make a drawing or to solve the cube. I only uploaded the videos of drawing which I had already made before. I thought it would be time consuming to teach those drawings how to make. </p>
+    <p>But after a few days I Stopped uploading videos as there was no one to see these arts there was a long break on my channel but one day when I was scrolling down the shorts on youtube. There I got an idea to upload a short video on youtube shorts. On that day I uploaded my first drawing on youtube. </p>
+    <p>On that day I got twice the views I got on my videos I beacame very happy as I got this much views for first time so, I  started uploading shorts once a week or once a month, now a days also sometimes I uploads the video but you can't find many videos on my channel beacause I never get time to upload or to make the drawings.</p>
+   <p>Which also sometimes negatively effect my channel as it goes to freeze. while knowing all these disadvantages I never stoped uploading as I need to share my creativity to whole world.</p>
+  <img src=" https://images.app.goo.gl/WNbtgqkZQdvJyq6q6" height="200" width="200">
+
+<img src="file:///E:/channel%20pic%204.jpg" height="200" width="200">
+<img src="file:///E:/ps-4.jpg" height="200" width="200">
+
+
+<h3>YOUTUBE LINK HERE</h3>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yBxEVCff0_c?si=LULvUWSFMcgSJ_Be" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+<h4>SOFTWARES</h4>
+   <p> There are  No. of websites from which you can download your softwares. I also use the softwares to make the graphics and video better. I generally use the softwares for editting the videos and programming as they make our work better. I also use apps to edit the small videos which you can find on my arts and cube technique channel.</P>
+<p>  In this channel I usualy editted my videos on apps or editted directly from youtube. You can also downlad the softwares which you can find on their softwares particular website. I useualy use getintopc website as It contains many softwares in it.</p>
+<p>It is not nesecery that you can find the softwares on websites for free beacause there are many softwares which you need to pay.</p>
+
+
+
+
+</div>
+how to add search bar to serch our products on website
+<footer>
+    <p>&copy; 2024  GW DESIGNERS WORLD. All rights reserved.</p>
+</footer>
+
+<script>
+    // JavaScript to handle the click event and add the active class to the clicked link
+    const navLinks = document.querySelectorAll('nav a');
+    navLinks.forEach(link => {
+        link.addEventListener('click', function() {
+            navLinks.forEach(link => link.classList.remove('active'));
+            this.classList.add('active');
+        });
+    });
+</script>
+
+</body>
+</html>
